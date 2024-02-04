@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&family=Dancing+Script&family=Ephesis&family=Kalnia:wght@100&family=Noto+Sans+Mandaic&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;1,6..12,200&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Teko:wght@300&display=swap');
+#bg{
+    height: 400px;
+    background-image: cover;
+    background-repeat: no-repeat;
+    border: 1px solid blue;
+}
+#bg img{
+    filter: brightness(15%);
+}
+.navbar{
+    margin-top: -950px;
+}
+#restoran{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #FEA116;
+    margin-left: 25px;
+}
+.nav-link{
+    color: white;
+}
+#active{
+    margin-left: 550px;
+}
+.nav-link:hover,#active{
+    color: #FEA116;
+}
+.fa-solid{
+    font-size: 55px;
+    color: #FEA116;
+}
+#box1{
+    height: 500px;
+    width: 1200px;
+    margin-top: 700px;
+    margin-left: -1100px;
+    align-items: center;
+}
+#box1 #h2{
+    color: white;
+    font-size: 50px;
+}
+#box1 .col{
+    height: 350px;
+}
+#box1 #col2 #image1{
+    height: 330px;
+    width: 400px;
+    background-size: cover;
+    margin-top: -15px;
+    margin-left: 35px;
+    animation: imgRotate 50s linear infinite;
+}
+#box1 #col1 #btn,#box3 #btn,#box4 #result{
+    color: white;
+    border: #FEA116;
+    background-color: #FEA116;
+}
+#box2{
+    height: 350px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 300px;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+}
+#box2 .col{
+    height: 300px;
+    width: 300px;
+    /* border: 1px solid black; */
+    margin: 10px;
+    margin-left: 21px;
+}
+#box2 i,#box2 h4,#box2 p{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#box3{
+    /* border: 1px solid black; */
+    height: 540px;
+    width: 100%;
+    margin-top: 100px;
+}
+#box3 .col{
+    /* border: 1px solid black; */
+    height: 540px;
+    /* width: 100%; */
+}
+#box3 #img2{
+    margin-left: 15px;
+    margin-top: 40px;
+}
+#box3 #img3{
+    margin-left: 40px;
+    margin-top: -5px;
+}
+#box3 #img4{
+    margin-left: 15px;
+    margin-top: 30px;
+}
+#box3 #col2 h5{
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    margin-top: 20px;
+    color: #FEA116;
+}
+#box3 #col2 h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+}
+#box3 #col2 #h1{
+    color: #FEA116;
+    font-size: calc(1.425rem + 2.1vw);
+    font-weight: 800;
+    line-height: 1.2;
+    margin-left: 15px;
+}
+#h1div,#h2div{
+    border-left: #FEA116 solid 5px;
+}
+#p1{
+    margin-top: -70px; 
+    margin-left: 125px;
+}
+#box3 #col2 #h6{
+    margin-left: 125px;
+}
+#h2div{
+    margin-top: -70px;
+    margin-left: 250px;
+}
+#p11{
+    margin-top: -65px; 
+    margin-left: 380px;
+}
+#box3 #col2 #h61{
+    margin-left: 380px;
+}
+#box3 #btn{
+    margin-top: 25px;
+}
+#box4{
+    height: 200px;
+    margin-top: 100px;
+    /* width: 100%; */
+    text-align: center;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box4 h5,#reservation,#reserbtn{
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    margin-top: 20px;
+    color: #FEA116;
+}
+#box4 h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+}
+#booktable{
+    display: flex;
+    justify-content: center;
+}
+@keyframes imgRotate{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@media(min-width : 300px) and (max-width : 500px){
+    #restoran{
+        font-size: 35px;
+        font-weight: 600;
+        margin-left: 0px;
+    }
+    .fa-solid{
+        font-size: 40px;
+        margin-left: 140px;
+    }
+    .navbar{
+        margin-top: 0px;
+        margin-top: -390px;
+    }
+    #box1{
+        margin-top: 700px;
+        margin-left: 0px;
+        margin-top: 90px;
+    }
+    #box1 #h2,#box1 #image1,#box1 .p{
+        margin-left: 100px;
+    }
+    #box1 #col1 #btn{
+        margin-left: 100px;
+    }
+    #box2,#box3{
+        width: 1200px;
+    }
+    #box3{
+        width: 1200px;
+    }
+}
